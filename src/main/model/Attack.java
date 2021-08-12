@@ -8,7 +8,7 @@ public abstract class Attack {
         this.damage = damage;
     }
 
-    public void dealDamage() {
-        System.out.println(damage + " damage dealt!");
+    public void dealDamage(int times) {
+        System.out.println((damage * times) + " damage dealt!");
     }
 }
